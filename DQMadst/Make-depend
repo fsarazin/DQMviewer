@@ -1,0 +1,89 @@
+CreatePeriodFile.o: CreatePeriodFile.cc /usr/local/root/include/TMath.h \
+  /usr/local/root/include/Rtypes.h /usr/local/root/include/RConfig.h \
+  /usr/local/root/include/RVersion.h /usr/local/root/include/DllImport.h \
+  /usr/local/root/include/Rtypeinfo.h /usr/local/root/include/snprintf.h \
+  /usr/local/root/include/strlcpy.h \
+  /usr/local/root/include/TGenericClassInfo.h \
+  /usr/local/root/include/TSchemaHelper.h \
+  /usr/local/root/include/TMathBase.h /usr/local/root/include/TError.h \
+  /usr/local/root/include/TFile.h \
+  /usr/local/root/include/TDirectoryFile.h \
+  /usr/local/root/include/TDirectory.h /usr/local/root/include/TNamed.h \
+  /usr/local/root/include/TObject.h /usr/local/root/include/TStorage.h \
+  /usr/local/root/include/TVersionCheck.h \
+  /usr/local/root/include/Riosfwd.h /usr/local/root/include/TBuffer.h \
+  /usr/local/root/include/TString.h /usr/local/root/include/TList.h \
+  /usr/local/root/include/TSeqCollection.h \
+  /usr/local/root/include/TCollection.h \
+  /usr/local/root/include/TIterator.h /usr/local/root/include/TDatime.h \
+  /usr/local/root/include/TUUID.h /usr/local/root/include/TMap.h \
+  /usr/local/root/include/THashTable.h /usr/local/root/include/TUrl.h \
+  /usr/local/root/include/TH1.h /usr/local/root/include/TAxis.h \
+  /usr/local/root/include/TAttAxis.h /usr/local/root/include/TArrayD.h \
+  /usr/local/root/include/TArray.h /usr/local/root/include/TAttLine.h \
+  /usr/local/root/include/TAttFill.h \
+  /usr/local/root/include/TAttMarker.h /usr/local/root/include/TArrayC.h \
+  /usr/local/root/include/TArrayS.h /usr/local/root/include/TArrayI.h \
+  /usr/local/root/include/TArrayF.h /usr/local/root/include/Foption.h \
+  /usr/local/root/include/TVectorFfwd.h \
+  /usr/local/root/include/TVectorDfwd.h \
+  /usr/local/root/include/TFitResultPtr.h /usr/local/root/include/TH2.h \
+  /usr/local/root/include/TMatrixFBasefwd.h \
+  /usr/local/root/include/TMatrixDBasefwd.h \
+  /usr/local/root/include/TGraph.h \
+  /usr/local/root/include/TGraphErrors.h \
+  /usr/local/ADST//include/adst/RecEvent.h \
+  /usr/local/ADST//include/adst/Detector.h \
+  /usr/local/ADST//include/adst/FdLidarData.h \
+  /usr/local/ADST//include/adst/FdCloudCameraData.h \
+  /usr/local/ADST//include/adst/FdAerosols.h \
+  /usr/local/root/include/TVector3.h /usr/local/root/include/TVector2.h \
+  /usr/local/root/include/TMatrix.h /usr/local/root/include/TMatrixF.h \
+  /usr/local/root/include/TMatrixT.h \
+  /usr/local/root/include/TMatrixTBase.h \
+  /usr/local/root/include/TMatrixTUtils.h \
+  /usr/local/root/include/TMatrixFfwd.h \
+  /usr/local/root/include/TMatrixFUtils.h \
+  /usr/local/root/include/TMatrixFUtilsfwd.h \
+  /usr/local/root/include/TBits.h \
+  /usr/local/ADST//include/adst/MeteoData.h \
+  /usr/local/ADST//include/adst/SDEvent.h \
+  /usr/local/ADST//include/adst/SdRecShower.h \
+  /usr/local/ADST//include/adst/SdRecLevel.h \
+  /usr/local/ADST//include/adst/RecShower.h \
+  /usr/local/ADST//include/adst/Shower.h \
+  /usr/local/ADST//include/adst/LDF.h \
+  /usr/local/ADST//include/adst/FileInfo.h \
+  /usr/local/ADST//include/adst/SimInfo.h /usr/local/root/include/TF1.h \
+  /usr/local/root/include/TFormula.h /usr/local/root/include/TObjArray.h \
+  /usr/local/root/include/Math/ParamFunctor.h \
+  /usr/local/ADST//include/adst/SdRiseTime.h \
+  /usr/local/ADST//include/adst/SdFootprintData.h \
+  /usr/local/ADST//include/adst/SdFootprintEnumerations.h \
+  /usr/local/root/include/TH1D.h \
+  /usr/local/ADST//include/adst/SdRecStation.h \
+  /usr/local/ADST//include/adst/StationStatus.h \
+  /usr/local/ADST//include/adst/TraceType.h \
+  /usr/local/ADST//include/adst/RecStation.h \
+  /usr/local/ADST//include/adst/Traces.h \
+  /usr/local/ADST//include/adst/SdBadStation.h \
+  /usr/local/ADST//include/adst/GenStation.h \
+  /usr/local/ADST//include/adst/MuonMap.h \
+  /usr/local/ADST//include/adst/FDEvent.h \
+  /usr/local/ADST//include/adst/FdRecShower.h \
+  /usr/local/ADST//include/adst/FdRecLevel.h \
+  /usr/local/ADST//include/adst/FdRecGeometry.h \
+  /usr/local/ADST//include/adst/FdGeometry.h \
+  /usr/local/ADST//include/adst/SdRecGeometry.h \
+  /usr/local/ADST//include/adst/FdRecApertureLight.h \
+  /usr/local/ADST//include/adst/FdApertureLight.h \
+  /usr/local/ADST//include/adst/FdRecPixel.h \
+  /usr/local/ADST//include/adst/FdTrace.h \
+  /usr/local/ADST//include/adst/FdMultiTrace.h \
+  /usr/local/ADST//include/adst/FdRecStation.h \
+  /usr/local/ADST//include/adst/FdGenGeometry.h \
+  /usr/local/ADST//include/adst/FdGenApertureLight.h \
+  /usr/local/ADST//include/adst/FdGenShower.h \
+  /usr/local/ADST//include/adst/FdTelescopeData.h \
+  /usr/local/ADST//include/adst/GenShower.h \
+  /usr/local/ADST//include/adst/RecEventFile.h
